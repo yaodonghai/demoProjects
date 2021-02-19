@@ -6,30 +6,65 @@ PODS:
   - AFNetworking/Reachability (3.2.1)
   - AFNetworking/Security (3.2.1)
   - AFNetworking/Serialization (3.2.1)
+  - FDFullscreenPopGesture (1.1)
   - Mantle (2.1.1):
     - Mantle/extobjc (= 2.1.1)
   - Mantle/extobjc (2.1.1)
   - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - NYXImagesKit (2.3)
+  - PINCache (3.0.1):
+    - PINCache/Arc-exception-safe (= 3.0.1)
+    - PINCache/Core (= 3.0.1)
+  - PINCache/Arc-exception-safe (3.0.1):
+    - PINCache/Core
+  - PINCache/Core (3.0.1):
+    - PINOperation (~> 1.2.0)
+  - PINOperation (1.2.1)
+  - ReactiveObjC (3.0.0)
+  - SDWebImage (4.4.4):
+    - SDWebImage/Core (= 4.4.4)
+  - SDWebImage/Core (4.4.4)
 
 DEPENDENCIES:
   - AFNetworking/NSURLSession (~> 3.0)
   - AFNetworking/Reachability (~> 3.0)
   - AFNetworking/Security (~> 3.0)
   - AFNetworking/Serialization (~> 3.0)
+  - FDFullscreenPopGesture (= 1.1)
   - Mantle (= 2.1.1)
   - Masonry (~> 1.1.0)
+  - MJRefresh (= 3.5.0)
+  - NYXImagesKit (= 2.3)
+  - PINCache (= 3.0.1)
+  - ReactiveObjC (= 3.0.0)
+  - SDWebImage (= 4.4.4)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - FDFullscreenPopGesture
     - Mantle
     - Masonry
+    - MJRefresh
+    - NYXImagesKit
+    - PINCache
+    - PINOperation
+    - ReactiveObjC
+    - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  PINCache: ee3c4abadd09970a61cdda0cfc345e69a3d75b26
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  SDWebImage: c00ec18ab25d10e5ffac109b0f78d1b4341c9691
 
-PODFILE CHECKSUM: 4717cc42b3b166304a620bc58cb5281c2e6f76c8
+PODFILE CHECKSUM: 4319b29b0a83def41707f31bf7d01f3f335d3921
 
 COCOAPODS: 1.10.0

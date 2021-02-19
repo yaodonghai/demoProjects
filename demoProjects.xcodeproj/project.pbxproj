@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,16 @@
 		E32DFCE025DF5FE90022E03A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFCDF25DF5FE90022E03A /* main.m */; };
 		E32DFCEA25DF5FE90022E03A /* demoProjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFCE925DF5FE90022E03A /* demoProjectsTests.m */; };
 		E32DFCF525DF5FE90022E03A /* demoProjectsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFCF425DF5FE90022E03A /* demoProjectsUITests.m */; };
+		E32DFD6B25DF6E950022E03A /* DEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFD6A25DF6E950022E03A /* DEBaseViewController.m */; };
+		E32DFD7325DF865F0022E03A /* DEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFD7225DF865F0022E03A /* DEMainViewController.m */; };
+		E32DFD8525DF874A0022E03A /* DEMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFD8425DF874A0022E03A /* DEMainTabBarController.m */; };
+		E32DFD8B25DF887E0022E03A /* DEBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFD8A25DF887E0022E03A /* DEBaseNavigationController.m */; };
+		E32DFDA625DF8CCE0022E03A /* UIImage+AGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDA425DF8CCE0022E03A /* UIImage+AGExtension.m */; };
+		E32DFDAC25DF8D110022E03A /* UIColor+TVBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDAB25DF8D110022E03A /* UIColor+TVBExtension.m */; };
+		E32DFDB225DF8E620022E03A /* UIColor+JZBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDB025DF8E620022E03A /* UIColor+JZBasis.m */; };
+		E32DFDB825DF8F4C0022E03A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDB625DF8F4C0022E03A /* Utils.m */; };
+		E32DFDD825DF91170022E03A /* DEHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDD725DF91170022E03A /* DEHomePageViewController.m */; };
+		E32DFDDE25DF91330022E03A /* DEOtherPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDDD25DF91330022E03A /* DEOtherPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +68,27 @@
 		E32DFCF025DF5FE90022E03A /* demoProjectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoProjectsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32DFCF425DF5FE90022E03A /* demoProjectsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoProjectsUITests.m; sourceTree = "<group>"; };
 		E32DFCF625DF5FE90022E03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32DFD6125DF6D160022E03A /* DEHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEHeader.h; sourceTree = "<group>"; };
+		E32DFD6925DF6E950022E03A /* DEBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEBaseViewController.h; sourceTree = "<group>"; };
+		E32DFD6A25DF6E950022E03A /* DEBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEBaseViewController.m; sourceTree = "<group>"; };
+		E32DFD7125DF865F0022E03A /* DEMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEMainViewController.h; sourceTree = "<group>"; };
+		E32DFD7225DF865F0022E03A /* DEMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEMainViewController.m; sourceTree = "<group>"; };
+		E32DFD8325DF874A0022E03A /* DEMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEMainTabBarController.h; sourceTree = "<group>"; };
+		E32DFD8425DF874A0022E03A /* DEMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEMainTabBarController.m; sourceTree = "<group>"; };
+		E32DFD8925DF887E0022E03A /* DEBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEBaseNavigationController.h; sourceTree = "<group>"; };
+		E32DFD8A25DF887E0022E03A /* DEBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEBaseNavigationController.m; sourceTree = "<group>"; };
+		E32DFDA425DF8CCE0022E03A /* UIImage+AGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AGExtension.m"; sourceTree = "<group>"; };
+		E32DFDA525DF8CCE0022E03A /* UIImage+AGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AGExtension.h"; sourceTree = "<group>"; };
+		E32DFDAA25DF8D110022E03A /* UIColor+TVBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TVBExtension.h"; sourceTree = "<group>"; };
+		E32DFDAB25DF8D110022E03A /* UIColor+TVBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TVBExtension.m"; sourceTree = "<group>"; };
+		E32DFDB025DF8E620022E03A /* UIColor+JZBasis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JZBasis.m"; sourceTree = "<group>"; };
+		E32DFDB125DF8E620022E03A /* UIColor+JZBasis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JZBasis.h"; sourceTree = "<group>"; };
+		E32DFDB625DF8F4C0022E03A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		E32DFDB725DF8F4C0022E03A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		E32DFDD625DF91170022E03A /* DEHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEHomePageViewController.h; sourceTree = "<group>"; };
+		E32DFDD725DF91170022E03A /* DEHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEHomePageViewController.m; sourceTree = "<group>"; };
+		E32DFDDC25DF91330022E03A /* DEOtherPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEOtherPageViewController.h; sourceTree = "<group>"; };
+		E32DFDDD25DF91330022E03A /* DEOtherPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEOtherPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +123,6 @@
 				1FFC0566FEE5F29F2D5E3F1F /* Pods-demoProjects.debug.xcconfig */,
 				815C31609028D5A7A24B1F66 /* Pods-demoProjects.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,17 +159,14 @@
 		E32DFCCC25DF5FE70022E03A /* demoProjects */ = {
 			isa = PBXGroup;
 			children = (
-				E32DFCCD25DF5FE70022E03A /* AppDelegate.h */,
-				E32DFCCE25DF5FE70022E03A /* AppDelegate.m */,
-				E32DFCD025DF5FE70022E03A /* SceneDelegate.h */,
-				E32DFCD125DF5FE70022E03A /* SceneDelegate.m */,
-				E32DFCD325DF5FE70022E03A /* ViewController.h */,
-				E32DFCD425DF5FE70022E03A /* ViewController.m */,
-				E32DFCD625DF5FE70022E03A /* Main.storyboard */,
-				E32DFCD925DF5FE90022E03A /* Assets.xcassets */,
-				E32DFCDB25DF5FE90022E03A /* LaunchScreen.storyboard */,
-				E32DFCDE25DF5FE90022E03A /* Info.plist */,
-				E32DFCDF25DF5FE90022E03A /* main.m */,
+				E32DFD6825DF6E660022E03A /* 基础视图 */,
+				E32DFD6025DF6C9C0022E03A /* Tools */,
+				E32DFD5925DF6B750022E03A /* 资源 */,
+				E32DFD5825DF6B5F0022E03A /* 杂项 */,
+				E32DFD5725DF6B3C0022E03A /* APP入口 */,
+				E32DFD5625DF6B110022E03A /* SDK */,
+				E32DFD5525DF6B050022E03A /* 业务视图 */,
+				E32DFD5425DF6AF60022E03A /* 基础设施 */,
 			);
 			path = demoProjects;
 			sourceTree = "<group>";
@@ -162,6 +189,126 @@
 			path = demoProjectsUITests;
 			sourceTree = "<group>";
 		};
+		E32DFD5425DF6AF60022E03A /* 基础设施 */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFD9A25DF8C870022E03A /* 基础库 */,
+				E32DFD9925DF8C7D0022E03A /* 扩展库 */,
+			);
+			path = "基础设施";
+			sourceTree = "<group>";
+		};
+		E32DFD5525DF6B050022E03A /* 业务视图 */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFD7025DF86100022E03A /* MainPage */,
+				E32DFD6F25DF85F50022E03A /* HomePage */,
+				E32DFCD325DF5FE70022E03A /* ViewController.h */,
+				E32DFCD425DF5FE70022E03A /* ViewController.m */,
+			);
+			path = "业务视图";
+			sourceTree = "<group>";
+		};
+		E32DFD5625DF6B110022E03A /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		E32DFD5725DF6B3C0022E03A /* APP入口 */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFCDF25DF5FE90022E03A /* main.m */,
+				E32DFCCD25DF5FE70022E03A /* AppDelegate.h */,
+				E32DFCCE25DF5FE70022E03A /* AppDelegate.m */,
+				E32DFCD025DF5FE70022E03A /* SceneDelegate.h */,
+				E32DFCD125DF5FE70022E03A /* SceneDelegate.m */,
+			);
+			path = "APP入口";
+			sourceTree = "<group>";
+		};
+		E32DFD5825DF6B5F0022E03A /* 杂项 */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFD6125DF6D160022E03A /* DEHeader.h */,
+			);
+			path = "杂项";
+			sourceTree = "<group>";
+		};
+		E32DFD5925DF6B750022E03A /* 资源 */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFCD625DF5FE70022E03A /* Main.storyboard */,
+				E32DFCD925DF5FE90022E03A /* Assets.xcassets */,
+				E32DFCDB25DF5FE90022E03A /* LaunchScreen.storyboard */,
+				E32DFCDE25DF5FE90022E03A /* Info.plist */,
+			);
+			path = "资源";
+			sourceTree = "<group>";
+		};
+		E32DFD6025DF6C9C0022E03A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFDB725DF8F4C0022E03A /* Utils.h */,
+				E32DFDB625DF8F4C0022E03A /* Utils.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E32DFD6825DF6E660022E03A /* 基础视图 */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFD6925DF6E950022E03A /* DEBaseViewController.h */,
+				E32DFD6A25DF6E950022E03A /* DEBaseViewController.m */,
+				E32DFD8925DF887E0022E03A /* DEBaseNavigationController.h */,
+				E32DFD8A25DF887E0022E03A /* DEBaseNavigationController.m */,
+			);
+			path = "基础视图";
+			sourceTree = "<group>";
+		};
+		E32DFD6F25DF85F50022E03A /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFDD625DF91170022E03A /* DEHomePageViewController.h */,
+				E32DFDD725DF91170022E03A /* DEHomePageViewController.m */,
+				E32DFDDC25DF91330022E03A /* DEOtherPageViewController.h */,
+				E32DFDDD25DF91330022E03A /* DEOtherPageViewController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		E32DFD7025DF86100022E03A /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFD7125DF865F0022E03A /* DEMainViewController.h */,
+				E32DFD7225DF865F0022E03A /* DEMainViewController.m */,
+				E32DFD8325DF874A0022E03A /* DEMainTabBarController.h */,
+				E32DFD8425DF874A0022E03A /* DEMainTabBarController.m */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		E32DFD9925DF8C7D0022E03A /* 扩展库 */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFDB125DF8E620022E03A /* UIColor+JZBasis.h */,
+				E32DFDB025DF8E620022E03A /* UIColor+JZBasis.m */,
+				E32DFDAA25DF8D110022E03A /* UIColor+TVBExtension.h */,
+				E32DFDAB25DF8D110022E03A /* UIColor+TVBExtension.m */,
+				E32DFDA525DF8CCE0022E03A /* UIImage+AGExtension.h */,
+				E32DFDA425DF8CCE0022E03A /* UIImage+AGExtension.m */,
+			);
+			path = "扩展库";
+			sourceTree = "<group>";
+		};
+		E32DFD9A25DF8C870022E03A /* 基础库 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "基础库";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,6 +320,7 @@
 				E32DFCC625DF5FE70022E03A /* Sources */,
 				E32DFCC725DF5FE70022E03A /* Frameworks */,
 				E32DFCC825DF5FE70022E03A /* Resources */,
+				F059AD967E1C4E0F54250DFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,6 +458,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F059AD967E1C4E0F54250DFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demoProjects/Pods-demoProjects-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demoProjects/Pods-demoProjects-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demoProjects/Pods-demoProjects-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -317,10 +482,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32DFD8525DF874A0022E03A /* DEMainTabBarController.m in Sources */,
 				E32DFCD525DF5FE70022E03A /* ViewController.m in Sources */,
+				E32DFDAC25DF8D110022E03A /* UIColor+TVBExtension.m in Sources */,
+				E32DFDB825DF8F4C0022E03A /* Utils.m in Sources */,
+				E32DFD6B25DF6E950022E03A /* DEBaseViewController.m in Sources */,
+				E32DFDDE25DF91330022E03A /* DEOtherPageViewController.m in Sources */,
+				E32DFDB225DF8E620022E03A /* UIColor+JZBasis.m in Sources */,
+				E32DFD7325DF865F0022E03A /* DEMainViewController.m in Sources */,
 				E32DFCCF25DF5FE70022E03A /* AppDelegate.m in Sources */,
 				E32DFCE025DF5FE90022E03A /* main.m in Sources */,
 				E32DFCD225DF5FE70022E03A /* SceneDelegate.m in Sources */,
+				E32DFDD825DF91170022E03A /* DEHomePageViewController.m in Sources */,
+				E32DFDA625DF8CCE0022E03A /* UIImage+AGExtension.m in Sources */,
+				E32DFD8B25DF887E0022E03A /* DEBaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +670,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 857BM7QE6E;
-				INFOPLIST_FILE = demoProjects/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/yaodonghai/Documents/GitHub/demoProjects/demoProjects/杂项/DEHeader.h";
+				INFOPLIST_FILE = "demoProjects/资源/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,7 +691,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 857BM7QE6E;
-				INFOPLIST_FILE = demoProjects/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/yaodonghai/Documents/GitHub/demoProjects/demoProjects/杂项/DEHeader.h";
+				INFOPLIST_FILE = "demoProjects/资源/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
