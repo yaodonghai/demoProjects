@@ -27,6 +27,8 @@
 		E32DFDB825DF8F4C0022E03A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDB625DF8F4C0022E03A /* Utils.m */; };
 		E32DFDD825DF91170022E03A /* DEHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDD725DF91170022E03A /* DEHomePageViewController.m */; };
 		E32DFDDE25DF91330022E03A /* DEOtherPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDDD25DF91330022E03A /* DEOtherPageViewController.m */; };
+		E32DFDF125DF95B30022E03A /* testNetWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDF025DF95B30022E03A /* testNetWorkViewController.m */; };
+		E32DFDF825DF97770022E03A /* DECloud.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDF725DF97770022E03A /* DECloud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,10 @@
 		E32DFDD725DF91170022E03A /* DEHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEHomePageViewController.m; sourceTree = "<group>"; };
 		E32DFDDC25DF91330022E03A /* DEOtherPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEOtherPageViewController.h; sourceTree = "<group>"; };
 		E32DFDDD25DF91330022E03A /* DEOtherPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEOtherPageViewController.m; sourceTree = "<group>"; };
+		E32DFDEF25DF95B30022E03A /* testNetWorkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testNetWorkViewController.h; sourceTree = "<group>"; };
+		E32DFDF025DF95B30022E03A /* testNetWorkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testNetWorkViewController.m; sourceTree = "<group>"; };
+		E32DFDF625DF97770022E03A /* DECloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DECloud.h; sourceTree = "<group>"; };
+		E32DFDF725DF97770022E03A /* DECloud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DECloud.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 		E32DFCCC25DF5FE70022E03A /* demoProjects */ = {
 			isa = PBXGroup;
 			children = (
+				E32DFDF525DF975C0022E03A /* 业务接口 */,
 				E32DFD6825DF6E660022E03A /* 基础视图 */,
 				E32DFD6025DF6C9C0022E03A /* Tools */,
 				E32DFD5925DF6B750022E03A /* 资源 */,
@@ -201,6 +208,7 @@
 		E32DFD5525DF6B050022E03A /* 业务视图 */ = {
 			isa = PBXGroup;
 			children = (
+				E32DFDE225DF955B0022E03A /* testVcs */,
 				E32DFD7025DF86100022E03A /* MainPage */,
 				E32DFD6F25DF85F50022E03A /* HomePage */,
 				E32DFCD325DF5FE70022E03A /* ViewController.h */,
@@ -307,6 +315,24 @@
 			children = (
 			);
 			path = "基础库";
+			sourceTree = "<group>";
+		};
+		E32DFDE225DF955B0022E03A /* testVcs */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFDEF25DF95B30022E03A /* testNetWorkViewController.h */,
+				E32DFDF025DF95B30022E03A /* testNetWorkViewController.m */,
+			);
+			path = testVcs;
+			sourceTree = "<group>";
+		};
+		E32DFDF525DF975C0022E03A /* 业务接口 */ = {
+			isa = PBXGroup;
+			children = (
+				E32DFDF625DF97770022E03A /* DECloud.h */,
+				E32DFDF725DF97770022E03A /* DECloud.m */,
+			);
+			path = "业务接口";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,9 +512,11 @@
 				E32DFCD525DF5FE70022E03A /* ViewController.m in Sources */,
 				E32DFDAC25DF8D110022E03A /* UIColor+TVBExtension.m in Sources */,
 				E32DFDB825DF8F4C0022E03A /* Utils.m in Sources */,
+				E32DFDF825DF97770022E03A /* DECloud.m in Sources */,
 				E32DFD6B25DF6E950022E03A /* DEBaseViewController.m in Sources */,
 				E32DFDDE25DF91330022E03A /* DEOtherPageViewController.m in Sources */,
 				E32DFDB225DF8E620022E03A /* UIColor+JZBasis.m in Sources */,
+				E32DFDF125DF95B30022E03A /* testNetWorkViewController.m in Sources */,
 				E32DFD7325DF865F0022E03A /* DEMainViewController.m in Sources */,
 				E32DFCCF25DF5FE70022E03A /* AppDelegate.m in Sources */,
 				E32DFCE025DF5FE90022E03A /* main.m in Sources */,
