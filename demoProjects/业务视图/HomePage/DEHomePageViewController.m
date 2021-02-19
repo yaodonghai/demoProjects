@@ -7,7 +7,7 @@
 
 #import "DEHomePageViewController.h"
 #import "testNetWorkViewController.h"
-
+#import "testIjkplayerControllerViewController.h"
 
 @interface DEHomePageViewController ()
 
@@ -45,7 +45,7 @@
     @weakify(self);
     [[button rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
         @strongify(self);
-        testNetWorkViewController *vc = [[testNetWorkViewController alloc]init];
+        testIjkplayerControllerViewController *vc = [[testIjkplayerControllerViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }];
     
