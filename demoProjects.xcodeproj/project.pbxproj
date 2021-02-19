@@ -43,6 +43,7 @@
 		E32DFE2725DFA1320022E03A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE2625DFA1320022E03A /* libz.tbd */; };
 		E32DFE2C25DFA14C0022E03A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE2B25DFA14C0022E03A /* libbz2.tbd */; };
 		E32DFE3125DFA15A0022E03A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE3025DFA15A0022E03A /* libstdc++.tbd */; };
+		E32DFE3825DFA2F50022E03A /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE3725DFA2F50022E03A /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,8 @@
 		E32DFE2625DFA1320022E03A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		E32DFE2B25DFA14C0022E03A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		E32DFE3025DFA15A0022E03A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		E32DFE3525DFA2CE0022E03A /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = ../../IJKMediaFramework.framework; sourceTree = "<group>"; };
+		E32DFE3725DFA2F50022E03A /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 				E32DFE3125DFA15A0022E03A /* libstdc++.tbd in Frameworks */,
 				E32DFE2C25DFA14C0022E03A /* libbz2.tbd in Frameworks */,
 				E32DFE2725DFA1320022E03A /* libz.tbd in Frameworks */,
+				E32DFE3825DFA2F50022E03A /* IJKMediaFramework.framework in Frameworks */,
 				E32DFE2525DFA1230022E03A /* VideoToolbox.framework in Frameworks */,
 				E32DFE2325DFA11C0022E03A /* UIKit.framework in Frameworks */,
 				E32DFE2125DFA1160022E03A /* QuartzCore.framework in Frameworks */,
@@ -177,6 +181,7 @@
 		E12A21B03F2B690B52B4F751 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E32DFE3525DFA2CE0022E03A /* IJKMediaFramework.framework */,
 				E32DFE3025DFA15A0022E03A /* libstdc++.tbd */,
 				E32DFE2B25DFA14C0022E03A /* libbz2.tbd */,
 				E32DFE2625DFA1320022E03A /* libz.tbd */,
@@ -276,6 +281,7 @@
 		E32DFD5625DF6B110022E03A /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				E32DFE3725DFA2F50022E03A /* IJKMediaFramework.framework */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -754,6 +760,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 857BM7QE6E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demoProjects/SDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/yaodonghai/Documents/GitHub/demoProjects/demoProjects/杂项/DEHeader.h";
 				INFOPLIST_FILE = "demoProjects/资源/Info.plist";
@@ -775,6 +785,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 857BM7QE6E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demoProjects/SDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/yaodonghai/Documents/GitHub/demoProjects/demoProjects/杂项/DEHeader.h";
 				INFOPLIST_FILE = "demoProjects/资源/Info.plist";
