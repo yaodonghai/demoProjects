@@ -29,6 +29,20 @@
 		E32DFDDE25DF91330022E03A /* DEOtherPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDDD25DF91330022E03A /* DEOtherPageViewController.m */; };
 		E32DFDF125DF95B30022E03A /* testNetWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDF025DF95B30022E03A /* testNetWorkViewController.m */; };
 		E32DFDF825DF97770022E03A /* DECloud.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDF725DF97770022E03A /* DECloud.m */; };
+		E32DFE1125DFA0A40022E03A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE1025DFA0A40022E03A /* AudioToolbox.framework */; };
+		E32DFE1325DFA0AD0022E03A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE1225DFA0AD0022E03A /* AVFoundation.framework */; };
+		E32DFE1525DFA0B90022E03A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE1425DFA0B90022E03A /* CoreGraphics.framework */; };
+		E32DFE1725DFA0C30022E03A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE1625DFA0C20022E03A /* CoreMedia.framework */; };
+		E32DFE1925DFA0D50022E03A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE1825DFA0D50022E03A /* CoreVideo.framework */; };
+		E32DFE1B25DFA0E10022E03A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE1A25DFA0E10022E03A /* MediaPlayer.framework */; };
+		E32DFE1D25DFA1010022E03A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE1C25DFA1010022E03A /* MobileCoreServices.framework */; };
+		E32DFE1F25DFA10E0022E03A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE1E25DFA10E0022E03A /* OpenGLES.framework */; };
+		E32DFE2125DFA1160022E03A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE2025DFA1160022E03A /* QuartzCore.framework */; };
+		E32DFE2325DFA11C0022E03A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE2225DFA11C0022E03A /* UIKit.framework */; };
+		E32DFE2525DFA1230022E03A /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE2425DFA1230022E03A /* VideoToolbox.framework */; };
+		E32DFE2725DFA1320022E03A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE2625DFA1320022E03A /* libz.tbd */; };
+		E32DFE2C25DFA14C0022E03A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE2B25DFA14C0022E03A /* libbz2.tbd */; };
+		E32DFE3125DFA15A0022E03A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE3025DFA15A0022E03A /* libstdc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +109,20 @@
 		E32DFDF025DF95B30022E03A /* testNetWorkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testNetWorkViewController.m; sourceTree = "<group>"; };
 		E32DFDF625DF97770022E03A /* DECloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DECloud.h; sourceTree = "<group>"; };
 		E32DFDF725DF97770022E03A /* DECloud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DECloud.m; sourceTree = "<group>"; };
+		E32DFE1025DFA0A40022E03A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E32DFE1225DFA0AD0022E03A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E32DFE1425DFA0B90022E03A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E32DFE1625DFA0C20022E03A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E32DFE1825DFA0D50022E03A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E32DFE1A25DFA0E10022E03A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E32DFE1C25DFA1010022E03A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E32DFE1E25DFA10E0022E03A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E32DFE2025DFA1160022E03A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E32DFE2225DFA11C0022E03A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E32DFE2425DFA1230022E03A /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		E32DFE2625DFA1320022E03A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E32DFE2B25DFA14C0022E03A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		E32DFE3025DFA15A0022E03A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +130,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32DFE3125DFA15A0022E03A /* libstdc++.tbd in Frameworks */,
+				E32DFE2C25DFA14C0022E03A /* libbz2.tbd in Frameworks */,
+				E32DFE2725DFA1320022E03A /* libz.tbd in Frameworks */,
+				E32DFE2525DFA1230022E03A /* VideoToolbox.framework in Frameworks */,
+				E32DFE2325DFA11C0022E03A /* UIKit.framework in Frameworks */,
+				E32DFE2125DFA1160022E03A /* QuartzCore.framework in Frameworks */,
+				E32DFE1F25DFA10E0022E03A /* OpenGLES.framework in Frameworks */,
+				E32DFE1D25DFA1010022E03A /* MobileCoreServices.framework in Frameworks */,
+				E32DFE1B25DFA0E10022E03A /* MediaPlayer.framework in Frameworks */,
+				E32DFE1925DFA0D50022E03A /* CoreVideo.framework in Frameworks */,
+				E32DFE1725DFA0C30022E03A /* CoreMedia.framework in Frameworks */,
+				E32DFE1525DFA0B90022E03A /* CoreGraphics.framework in Frameworks */,
+				E32DFE1325DFA0AD0022E03A /* AVFoundation.framework in Frameworks */,
+				E32DFE1125DFA0A40022E03A /* AudioToolbox.framework in Frameworks */,
 				570C672B8A237E5E871F7CE0 /* libPods-demoProjects.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +177,20 @@
 		E12A21B03F2B690B52B4F751 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E32DFE3025DFA15A0022E03A /* libstdc++.tbd */,
+				E32DFE2B25DFA14C0022E03A /* libbz2.tbd */,
+				E32DFE2625DFA1320022E03A /* libz.tbd */,
+				E32DFE2425DFA1230022E03A /* VideoToolbox.framework */,
+				E32DFE2225DFA11C0022E03A /* UIKit.framework */,
+				E32DFE2025DFA1160022E03A /* QuartzCore.framework */,
+				E32DFE1E25DFA10E0022E03A /* OpenGLES.framework */,
+				E32DFE1C25DFA1010022E03A /* MobileCoreServices.framework */,
+				E32DFE1A25DFA0E10022E03A /* MediaPlayer.framework */,
+				E32DFE1825DFA0D50022E03A /* CoreVideo.framework */,
+				E32DFE1625DFA0C20022E03A /* CoreMedia.framework */,
+				E32DFE1425DFA0B90022E03A /* CoreGraphics.framework */,
+				E32DFE1225DFA0AD0022E03A /* AVFoundation.framework */,
+				E32DFE1025DFA0A40022E03A /* AudioToolbox.framework */,
 				DE5C7B18517DC60E39BDCF11 /* libPods-demoProjects.a */,
 			);
 			name = Frameworks;
