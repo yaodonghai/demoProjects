@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DEVideoViewController : DEBaseViewController
 
 @property(atomic,strong) NSURL *url;
-@property(atomic, retain) id<IJKMediaPlayback> player;
+@property(atomic, strong) IJKFFMoviePlayerController *player;
 
 @end
 

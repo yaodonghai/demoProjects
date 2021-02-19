@@ -46,6 +46,8 @@
 		E32DFE3825DFA2F50022E03A /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32DFE3725DFA2F50022E03A /* IJKMediaFramework.framework */; };
 		E32DFE3E25DFA3AA0022E03A /* testIjkplayerControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFE3D25DFA3AA0022E03A /* testIjkplayerControllerViewController.m */; };
 		E32DFE4425DFA71C0022E03A /* DEVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFE4325DFA71C0022E03A /* DEVideoViewController.m */; };
+		E32DFE4A25DFAA120022E03A /* DEUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFE4925DFAA120022E03A /* DEUtilities.m */; };
+		E32DFE5925DFC09A0022E03A /* NSDictionary+JZBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFE5725DFC09A0022E03A /* NSDictionary+JZBasis.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +134,10 @@
 		E32DFE3D25DFA3AA0022E03A /* testIjkplayerControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testIjkplayerControllerViewController.m; sourceTree = "<group>"; };
 		E32DFE4225DFA71C0022E03A /* DEVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEVideoViewController.h; sourceTree = "<group>"; };
 		E32DFE4325DFA71C0022E03A /* DEVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEVideoViewController.m; sourceTree = "<group>"; };
+		E32DFE4825DFAA120022E03A /* DEUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEUtilities.h; sourceTree = "<group>"; };
+		E32DFE4925DFAA120022E03A /* DEUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEUtilities.m; sourceTree = "<group>"; };
+		E32DFE5725DFC09A0022E03A /* NSDictionary+JZBasis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JZBasis.m"; sourceTree = "<group>"; };
+		E32DFE5825DFC09A0022E03A /* NSDictionary+JZBasis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JZBasis.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +374,8 @@
 		E32DFD9925DF8C7D0022E03A /* 扩展库 */ = {
 			isa = PBXGroup;
 			children = (
+				E32DFE5825DFC09A0022E03A /* NSDictionary+JZBasis.h */,
+				E32DFE5725DFC09A0022E03A /* NSDictionary+JZBasis.m */,
 				E32DFDB125DF8E620022E03A /* UIColor+JZBasis.h */,
 				E32DFDB025DF8E620022E03A /* UIColor+JZBasis.m */,
 				E32DFDAA25DF8D110022E03A /* UIColor+TVBExtension.h */,
@@ -381,6 +389,8 @@
 		E32DFD9A25DF8C870022E03A /* 基础库 */ = {
 			isa = PBXGroup;
 			children = (
+				E32DFE4825DFAA120022E03A /* DEUtilities.h */,
+				E32DFE4925DFAA120022E03A /* DEUtilities.m */,
 			);
 			path = "基础库";
 			sourceTree = "<group>";
@@ -588,10 +598,12 @@
 				E32DFD6B25DF6E950022E03A /* DEBaseViewController.m in Sources */,
 				E32DFDDE25DF91330022E03A /* DEOtherPageViewController.m in Sources */,
 				E32DFDB225DF8E620022E03A /* UIColor+JZBasis.m in Sources */,
+				E32DFE4A25DFAA120022E03A /* DEUtilities.m in Sources */,
 				E32DFDF125DF95B30022E03A /* testNetWorkViewController.m in Sources */,
 				E32DFE3E25DFA3AA0022E03A /* testIjkplayerControllerViewController.m in Sources */,
 				E32DFD7325DF865F0022E03A /* DEMainViewController.m in Sources */,
 				E32DFCCF25DF5FE70022E03A /* AppDelegate.m in Sources */,
+				E32DFE5925DFC09A0022E03A /* NSDictionary+JZBasis.m in Sources */,
 				E32DFCE025DF5FE90022E03A /* main.m in Sources */,
 				E32DFE4425DFA71C0022E03A /* DEVideoViewController.m in Sources */,
 				E32DFCD225DF5FE70022E03A /* SceneDelegate.m in Sources */,
