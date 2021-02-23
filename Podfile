@@ -15,6 +15,8 @@ pod 'MJRefresh', '3.5.0'
 pod 'PINCache', '3.0.1'
 pod 'ReactiveObjC', '3.0.0'
 pod 'FDFullscreenPopGesture', '1.1'
+#pod 'MddFlutterFramework', :git=>'https://gitlab.com/MddFlutterFramework.git'
+pod 'MddFlutterFramework', :path => '../MddFlutterFramework'
 
 
 end
