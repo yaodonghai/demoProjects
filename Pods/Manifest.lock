@@ -35,7 +35,7 @@ DEPENDENCIES:
   - FDFullscreenPopGesture (= 1.1)
   - Mantle (= 2.1.1)
   - Masonry (~> 1.1.0)
-  - MddFlutterFramework (from `../MddFlutterFramework`)
+  - MddFlutterFramework (from `https://github.com/yaodonghai/MddFlutterFramework.git`)
   - MJRefresh (= 3.5.0)
   - NYXImagesKit (= 2.3)
   - PINCache (= 3.0.1)
@@ -57,7 +57,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   MddFlutterFramework:
-    :path: "../MddFlutterFramework"
+    :git: https://github.com/yaodonghai/MddFlutterFramework.git
+
+CHECKOUT OPTIONS:
+  MddFlutterFramework:
+    :commit: 232616700e2b79f82d954a38c17f61cdcd8a153d
+    :git: https://github.com/yaodonghai/MddFlutterFramework.git
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -72,6 +77,6 @@ SPEC CHECKSUMS:
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
   SDWebImage: c00ec18ab25d10e5ffac109b0f78d1b4341c9691
 
-PODFILE CHECKSUM: b2499d7de1558f38f6136d9cb133909e0314ed01
+PODFILE CHECKSUM: ca37cf0e81b57748821b5d455deb3a41b5ad4893
 
 COCOAPODS: 1.10.0
