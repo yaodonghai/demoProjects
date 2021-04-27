@@ -8,6 +8,7 @@
 #import "testNetWorkViewController.h"
 #import "DECloud.h"
 #import <Foundation/Foundation.h>
+#import <MyFrameWork/MyTool.h>
 
 @interface testNetWorkViewController ()
 
@@ -29,8 +30,13 @@
 
 
 - (void)requestJson{
+    MyTool *tool = [[MyTool alloc]init];
+    NSInteger numiber = [tool statisticalSum:2 addNumber:3];
+    
+    NSLog(@"numiber------|%ld|",numiber);
     
     NSMutableURLRequest *req = nil;
+    
     NSError *error = nil;
     //http://www.tianqiapi.com/api?version=v9&appid=14472854&appsecret=uHMIF5Ap
     NSDictionary *param = @{};

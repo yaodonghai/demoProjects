@@ -29,6 +29,7 @@
 		E32DFDDE25DF91330022E03A /* DEOtherPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDDD25DF91330022E03A /* DEOtherPageViewController.m */; };
 		E32DFDF125DF95B30022E03A /* testNetWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDF025DF95B30022E03A /* testNetWorkViewController.m */; };
 		E32DFDF825DF97770022E03A /* DECloud.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DFDF725DF97770022E03A /* DECloud.m */; };
+		E3837AFA26142CB400847E17 /* MyFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3837AF926142CB400847E17 /* MyFrameWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,8 @@
 		E32DFDF025DF95B30022E03A /* testNetWorkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testNetWorkViewController.m; sourceTree = "<group>"; };
 		E32DFDF625DF97770022E03A /* DECloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DECloud.h; sourceTree = "<group>"; };
 		E32DFDF725DF97770022E03A /* DECloud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DECloud.m; sourceTree = "<group>"; };
+		E352CDA926088713000F521E /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = demoProjects/SDK/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		E3837AF926142CB400847E17 /* MyFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyFrameWork.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				570C672B8A237E5E871F7CE0 /* libPods-demoProjects.a in Frameworks */,
+				E3837AFA26142CB400847E17 /* MyFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +139,7 @@
 		E12A21B03F2B690B52B4F751 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E352CDA926088713000F521E /* IJKMediaFramework.framework */,
 				DE5C7B18517DC60E39BDCF11 /* libPods-demoProjects.a */,
 			);
 			name = Frameworks;
@@ -220,6 +225,7 @@
 		E32DFD5625DF6B110022E03A /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				E3837AF926142CB400847E17 /* MyFrameWork.framework */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -346,7 +352,8 @@
 				E32DFCC625DF5FE70022E03A /* Sources */,
 				E32DFCC725DF5FE70022E03A /* Frameworks */,
 				E32DFCC825DF5FE70022E03A /* Resources */,
-				F059AD967E1C4E0F54250DFC /* [CP] Copy Pods Resources */,
+				BAA443BB90C78496CE7B86BD /* [CP] Embed Pods Frameworks */,
+				7E9BA6DC2E3FA3445D511A03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -484,7 +491,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F059AD967E1C4E0F54250DFC /* [CP] Copy Pods Resources */ = {
+		7E9BA6DC2E3FA3445D511A03 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,6 +506,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demoProjects/Pods-demoProjects-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA443BB90C78496CE7B86BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demoProjects/Pods-demoProjects-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demoProjects/Pods-demoProjects-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demoProjects/Pods-demoProjects-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -629,7 +653,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -682,7 +706,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -698,12 +722,21 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 857BM7QE6E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demoProjects/SDK",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/yaodonghai/Documents/GitHub/demoProjects/demoProjects/杂项/DEHeader.h";
 				INFOPLIST_FILE = "demoProjects/资源/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demoProjects/SDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tvbc.maiduidui.demoProjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -719,12 +752,21 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 857BM7QE6E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demoProjects/SDK",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/yaodonghai/Documents/GitHub/demoProjects/demoProjects/杂项/DEHeader.h";
 				INFOPLIST_FILE = "demoProjects/资源/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demoProjects/SDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tvbc.maiduidui.demoProjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";

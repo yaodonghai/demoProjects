@@ -16,6 +16,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *name = @"你发ee";
+    
+    NSLog(@"name----|%ld|",name.length);
     return YES;
 }
 
