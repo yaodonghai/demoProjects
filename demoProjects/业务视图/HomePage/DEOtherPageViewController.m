@@ -17,6 +17,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
 
+    NSString *url = @"dfdfdfd";
+    NSLog(@"-----");
     // Do any additional setup after loading the view.
 }
 

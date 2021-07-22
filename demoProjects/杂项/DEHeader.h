@@ -15,7 +15,6 @@
 #import <Masonry/Masonry.h>
 #import <AFNetworking/AFHTTPSessionManager.h>
 #import "Utils.h"
-#import <PINCache/PINCache.h>
 #import <ReactiveObjC/ReactiveObjC.h>
 
 #endif
